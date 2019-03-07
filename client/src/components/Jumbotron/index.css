@@ -1,0 +1,27 @@
+.display-4{
+    font-family: 'Roboto', sans-serif !important; 
+    font-weight: 500;
+}
+ .lead{
+     font-family: 'Roboto', sans-serif !important; 
+     font-weight: 500;
+    } 
+.btn{
+    width: 230px;
+    font-size: 18px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif !important; 
+}
+
+.btn-primary1{
+    background:#9D9274;
+    color: aliceblue;
+}
+
+.btn-primary2{
+    background: #9D7B74;
+    color: aliceblue;
+    border-color: #9D7B74;
+}
+
+
