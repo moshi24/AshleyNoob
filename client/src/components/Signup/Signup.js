@@ -83,6 +83,8 @@ class Signup extends Component {
                         <Button onClick={this.props.handleSignup} color="success" block>Signup</Button>
                     ) : (
                         <Button onClick={this.props.handleSignup} color="danger" block disabled>Signup</Button>
+                        // console.log("here",this.props.handleSignup});
+                        
                     )}
                     <p className="signupLink">
                         <Link to="/login">already have an account?  Sign in here</Link>

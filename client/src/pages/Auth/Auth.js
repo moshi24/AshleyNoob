@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import Login from "../../components/Login";
 import Signup from "../../components/Signup";
-import API from "../../utils/API";
-import "./Auth.scss";
+import API from "../../utils/API"
+
+// import "./Auth.scss";
 
 class Auth extends Component {
 
@@ -54,7 +55,8 @@ class Auth extends Component {
       API.signup({
         username: this.state.username,
         password: this.state.password
-      }).then(user => {
+      }).then(
+        user => {
         if (user.data.loggedIn) {
           this.setState({
             loggedIn: true,
@@ -69,7 +71,8 @@ class Auth extends Component {
             message: user.data
           })
         }
-      });
+      }
+      );
     }
   }
 

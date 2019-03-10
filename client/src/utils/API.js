@@ -18,8 +18,8 @@ export default {
     return axios.post("/api/wines", wineData);
   },
   
-  // logs in user
-  login: function(loginInfo) {
+   // logs in user
+   login: function(loginInfo) {
     return axios.post("/api/users/login", loginInfo);
   },
 
